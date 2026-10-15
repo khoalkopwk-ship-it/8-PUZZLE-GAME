@@ -1,0 +1,35 @@
+"""
+File cấu hình chung cho 8 Puzzle Game.
+"""
+
+# Kích thước cửa sổ chính
+WINDOW_WIDTH = 1540
+WINDOW_HEIGHT = 900
+WINDOW_TITLE = "8 Puzzle Game"
+
+# Màu sắc chính của giao diện
+APP_BG = "#EEF3F8"
+CARD_BG = "#FFFFFF"
+CARD_BORDER = "#D5DFEA"
+TEXT_DARK = "#1F3A5F"
+TEXT_MUTED = "#5E6E82"
+TEXT_BLUE = "#24476B"
+
+# Giữ cố định lưới 3 x 3
+GRID_SIZE = 3
+BOARD_AREA_SIZE = 450
+GOAL_AREA_SIZE = 225
+
+# Màu các ô puzzle
+BOARD_EMPTY_BG = "#D8E2F0"
+GOAL_EMPTY_BG = "#E7EEF7"
+BOARD_TILE_BG = "#5DA9E9"
+GOAL_TILE_BG = "#41B883"
+
+# Màu nút chức năng
+BUTTON_UPLOAD_BG = "#14B8A6"
+BUTTON_UPLOAD_ACTIVE = "#0F766E"
+BUTTON_NUMBER_BG = "#64748B"
+BUTTON_NUMBER_ACTIVE = "#475569"
+BUTTON_RANDOM_BG = "#4F8EF7"
+BUTTON_RANDOM_ACTIVE = "#3C79DE"
